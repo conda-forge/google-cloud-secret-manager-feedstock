@@ -30,6 +30,7 @@ test:
   imports:
     - google
     - google.cloud
+    - google.cloud.secretmanager
   commands:
     - pip check
   requires:
@@ -44,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - vladsaveliev
+    - xylar
