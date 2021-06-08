@@ -36,6 +36,7 @@ Installing `google-cloud-secret-manager` from the `conda-forge` channel can be a
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `google-cloud-secret-manager` can be installed with:
