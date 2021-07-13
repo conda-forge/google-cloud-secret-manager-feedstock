@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.6
+    - pip
   run:
     - python >=3.6
-    - google-api-core >=1.22.2,<2.0.0dev
+    - google-api-core >=1.26.0,<2.0.0dev
     - grpc-google-iam-v1 >=0.12.3,<0.13dev
     - libcst >=0.2.5
     - packaging >=14.3
