@@ -5,7 +5,7 @@ Home: https://github.com/googleapis/python-secret-manager
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-secret-manager-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-secret-manager-feedstock/blob/main/LICENSE.txt)
 
 Summary: Secret Manager API API client library
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11697&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-cloud-secret-manager-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11697&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/google-cloud-secret-manager-feedstock?branchName=main">
       </a>
     </td>
   </tr>
