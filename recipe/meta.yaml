@@ -1,6 +1,5 @@
 {% set name = "google-cloud-secret-manager" %}
-{% set version = "2.12.4" %}
-
+{% set version = "2.12.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-secret-manager-{{ version }}.tar.gz
-  sha256: 9db33eb99afb6b7457bed2c8ee7e576590fdafd655a21e62092a190270c8b904
+  sha256: cdf0cc614134e6b8eee966fa821132befe0c7379b57a1aa15b23d6267805590e
 
 build:
   number: 0
@@ -24,7 +23,7 @@ requirements:
     - google-api-core-grpc >=1.32.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
     - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
     - proto-plus >=1.22.0,<2.0.0dev
-    - protobuf >=3.19.0,<5.0.0dev
+    - protobuf >=3.20.2,<5.0.0dev
 
 test:
   imports:
