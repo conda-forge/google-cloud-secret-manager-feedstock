@@ -1,5 +1,5 @@
 {% set name = "google-cloud-secret-manager" %}
-{% set version = "2.12.5" %}
+{% set version = "2.12.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-secret-manager-{{ version }}.tar.gz
-  sha256: cdf0cc614134e6b8eee966fa821132befe0c7379b57a1aa15b23d6267805590e
+  sha256: 7aaba2997f43f8c3b35903efc54c389a802f39853ba81e81e1190f093420ecf6
 
 build:
   number: 0
