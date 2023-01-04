@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-secret-manager-feedstock/blob/main/LICENSE.txt)
 
-Summary: Secret Manager API API client library
+Summary: Google Cloud Secret Manager API client library
 
 Current build status
 ====================
