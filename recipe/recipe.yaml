@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-secret-manager
-  version: "2.31.0"
+  version: "2.32.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_secret_manager-${{ version }}.tar.gz
-  sha256: 29bb33b48c3b974495a4d015e06b06b126e23232bccd223d678da1e1a861b6e6
+  sha256: 104635f69f094f717caf0b68adf623f0f0cf7b3236dcba12d3a503e8637017e8
 
 build:
   number: 0
